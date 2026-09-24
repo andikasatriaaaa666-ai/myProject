@@ -91,10 +91,15 @@ section main a#facebook::after {
   content: "";
   background: linear-gradient(180deg, #1877f2 0%, #0a49a8 100%);
 }
+section main a#whatsapp::after {
+  content: "";
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+}
 
 section main a#instagram:hover::after,
 section main a#youtube:hover::after,
-section main a#facebook:hover::after {
+section main a#facebook:hover::after,
+section main a#whatsapp:hover::after {
   width: 100%;
   opacity: 1;
 }
